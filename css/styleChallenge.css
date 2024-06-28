@@ -1,0 +1,79 @@
+body{
+    background:rgb(226, 224, 224);
+    padding:0;
+    margin:0;
+}
+
+#navbar{
+    background-color: #FFFFFF;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: right;
+    font-family: Roboto, sans-serif;
+}
+
+.outside_line{
+    margin: 0 10px;
+}
+
+.base_box {
+  background-color: white;
+  margin: 30px;
+  padding: 20px;
+  font-family: Roboto, sans-serif;
+}
+
+.profilbox {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 40px;
+}
+
+a{
+text-decoration: none;
+}
+
+a:link{
+    color: black;
+}
+
+a:visited{
+    color: black;
+}
+
+a:hover{
+    color: red;
+}
+
+.isian{
+    width: 100%
+}
+
+.profilButton{
+    background-color: white; 
+    color: black; 
+    border: 2px solid #04AA6D;
+    padding: 16px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+}
+
+.profilButton:hover {
+    background-color: blue;
+    color: white;
+  }
+
+#tombolSubmit{
+    width: 100%;
+    height: 30px;
+    background-color: green;
+    color: white;
+}
+#tombolSubmit:hover{
+    background-color: white;
+    color: green;
+}
